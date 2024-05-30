@@ -1,69 +1,62 @@
-/* Placeholder styles */
-.placeholder {
-    color: #999; /* Placeholder text color */
-    font-style: italic; /* Placeholder text style */
-}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../styles/SourceSansPro-Regular.otf') format('opentype');
+  }
 
-/* Placeholder for input[type="text"] */
-input[type="text"]::placeholder {
-    /* Placeholder specific styles */
-}
+  * {
+    font-family: 'Source Sans Pro';
+  }
 
-/* Placeholder for input[type="password"] */
-input[type="password"]::placeholder {
-    /* Placeholder specific styles */
-}
+  :root {
+    --purple-accent: #C271FF;
+    --dark-navy: #071629;
+  }
 
-/* Placeholder for textarea */
-textarea::placeholder {
-    /* Placeholder specific styles */
-}
+  html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
-/* Placeholder for select */
-select::placeholder {
-    /* Placeholder specific styles */
-}
+  body {
+    width: 1440px;
+    height: 3718px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
-/* Placeholder for input[type="email"] */
-input[type="email"]::placeholder {
-    /* Placeholder specific styles */
-}
+  /* HEADER */
 
-/* Placeholder for input[type="number"] */
-input[type="number"]::placeholder {
-    /* Placeholder specific styles */
-}
+  header {
+    width: 1103.408px;
+    height: 29.461;
+    flex-shrink: 0;
+    position: relative;
+    top: 75px;
+    left: 175.67px;
+    right: 165px;
+  }
 
-/* Placeholder for input[type="date"] */
-input[type="date"]::placeholder {
-    /* Placeholder specific styles */
-}
+  .topbar-container {
+    display: flex;
+    gap: 702.39px;
+  }
 
-/* Placeholder for input[type="time"] */
-input[type="time"]::placeholder {
-    /* Placeholder specific styles */
-}
+  .topbar-container .menu {
+    display: flex;
+    gap: 52px;
+  }
 
-/* Placeholder for input[type="url"] */
-input[type="url"]::placeholder {
-    /* Placeholder specific styles */
-}
-
-/* Placeholder for input[type="search"] */
-input[type="search"]::placeholder {
-    /* Placeholder specific styles */
-}
-
-/* Placeholder for input[type="tel"] */
-input[type="tel"]::placeholder {
-    /* Placeholder specific styles */
-}
-
-/* Placeholder for input[type="color"] */
-input[type="color"]::placeholder {
-    /* Placeholder specific styles */
-}
-
-
+  .topbar-container .menu a {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
 
 

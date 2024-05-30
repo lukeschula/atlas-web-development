@@ -192,3 +192,116 @@ main {
     line-height: 24px;
   }
 
+/* Second Section */
+
+.testimonial-section {
+  width: 1440px;
+  height: 392px;
+  flex-shrink: 0;
+  background-color: var(--purple-accent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.testimonial blockquote {
+  width: 730px;
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px;
+  margin-left: 0px;
+}
+
+.testimonial p {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+
+#testimonial-name {
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.6px;
+  margin-top: 25px;
+}
+
+.testimonial-section .testimonials-container img {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 25px;
+}
+
+.tutorial-section {
+  width: 1440px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tutorial-section h1 {
+  color: var(--dark-navy);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.tutorial-section h1 strong{
+  color: var(--purple-accent);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 624px;
+  line-height: normal;
+}
+
+.part_2_tutorials {
+  width: 1228px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center, space-evenly;
+  gap: 31px;
+}
+
+.tutorial-container {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  height: 335px;
+  flex-shrink: 0;
+}
+
+.video-image {
+  width: 255px;
+  height: 154px;
+}
+
+.play-button-1 {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  position: absolute;
+  z-index: 1;
+  top: 1810px;
+  left: 200px;
+}

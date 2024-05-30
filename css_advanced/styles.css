@@ -518,3 +518,37 @@ main {
   line-height: 24px;
 }
 
+/* FOOTER STYLING */
+
+footer {
+  width: 1440px;
+  height: 249px;
+  flex-shrink: 0;
+  background-color: var(--dark-navy);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 736px;
+  margin-top: 75px;
+}
+
+.footer-container p {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+}

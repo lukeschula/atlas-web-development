@@ -1,5 +1,5 @@
-[Click Here For GitHub Page](lukeschula.github.io)
 
+ GitHub Page: lukeschula.github.io
 <a name="readme-top"></a>
 
 <br />

@@ -1,4 +1,4 @@
-[Click Here For GitHub Page](lukeschula.github.io)ß
+[Click Here For GitHub Page](lukeschula.github.io)
 
 <a name="readme-top"></a>
 
